@@ -83,6 +83,32 @@ header nav ul li a:hover {
 /* work section stlyes end */
 
 /* contact me section styles start */
+footer {
+    padding: 15px 25px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.contact-me article ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.contact-me article ul li a {
+    padding: 15px 10px;
+    text-decoration: none;
+}
+
+.flex-column1 {
+    align-self: stretch;
+    border-right: 2px solid;
+    padding-right: 10px;
+}
+
 /* contact me section styles end */
 
 /*  */
