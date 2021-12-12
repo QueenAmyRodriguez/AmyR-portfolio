@@ -1,0 +1,88 @@
+:root {
+    --primary-color: #4B1980;
+    --secondary-color: #145133;
+    --tertiary-color: #B8B8B8;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    color: var(--primary-color);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* header/nav styles start */
+header {
+    padding: 25px 40px;
+    background-color: var(--tertiary-color);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 9999;
+}
+header h1 {
+    font-weight: bold;
+    margin: 0;
+    font-size: 2em;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+header a {
+    text-decoration: none;
+    color: var(--primary-color);
+}
+
+header nav {
+    margin: 7px 0;
+}
+
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;    
+}
+
+header nav ul li a {
+    padding: 15px 20px;
+    font-weight: lighter;
+    font-size: 1.75vw;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+header nav ul li a:hover {
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    border-radius: 20px;
+    text-shadow: none;
+}
+/* header/nav styles end */
+
+/* hero styles start */
+.hero {
+    background-image: url('./assets/images/abstract-gray.jpeg');
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+/* hero styles end */
+
+/* about me section styles start */
+
+/* about me section styles end */
+
+/* work section styles start */
+/* work section stlyes end */
+
+/* contact me section styles start */
+/* contact me section styles end */
+
+/*  */
