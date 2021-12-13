@@ -1,7 +1,7 @@
 :root {
-    --primary-color: #4B1980;
+    --primary-color: #B8B8B8;
     --secondary-color: #145133;
-    --tertiary-color: #B8B8B8;
+    --tertiary-color: #4B1980;
 }
 /* universal and body styles */
 * {
@@ -164,7 +164,8 @@ section, footer {
     list-style: none;
 }
  .contact-info ul li a {
-    /* flex-wrap: wrap; */
+     text-decoration: underline;
+     color: var(--primary-color);
     padding-left: 30px;
 } 
 
